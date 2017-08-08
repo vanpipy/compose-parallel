@@ -1,0 +1,31 @@
+{
+  "name": "compose-parallel",
+  "version": "1.0.0",
+  "description": "compose parallel, curry, compose, map the handler.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanpipy/compose-parallel.git"
+  },
+  "keywords": [
+    "parallel",
+    "functinal",
+    "program"
+  ],
+  "author": "vanpipy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vanpipy/compose-parallel/issues"
+  },
+  "homepage": "https://github.com/vanpipy/compose-parallel#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.25.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
