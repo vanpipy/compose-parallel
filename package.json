@@ -1,6 +1,6 @@
 {
   "name": "compose-parallel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "compose parallel, curry, compose, map the handler.",
   "main": "index.js",
   "scripts": {
