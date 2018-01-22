@@ -14,4 +14,6 @@ function map (fn, functor) {
     return _array;
 }
 
-module.exports = map;
+if (module && module.exports) {
+    module.exports = map;
+}

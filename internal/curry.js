@@ -16,4 +16,6 @@ function rebuild (originalFn, validParams, validParamsLength) {
     };
 }
 
-module.exports = curry;
+if (module && module.exports) {
+    module.exports = curry;
+}

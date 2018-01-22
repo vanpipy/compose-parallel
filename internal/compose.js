@@ -20,4 +20,6 @@ function _compose (f, g) {
     }
 }
 
-module.exports = compose;
+if (module && module.exports) {
+    module.exports = compose;
+}
