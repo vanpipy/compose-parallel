@@ -1,4 +1,3 @@
-'use strict';
 
 function map (fn, functor) {
     let i = 0;

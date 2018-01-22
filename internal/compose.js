@@ -1,4 +1,3 @@
-'use strict';
 
 /*
  * compose(a, b, c) call order by c -> b -> a

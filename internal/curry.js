@@ -1,4 +1,3 @@
-'use strict';
 
 function curry (Fn) {
     return rebuild(Fn, [], Fn.length);
