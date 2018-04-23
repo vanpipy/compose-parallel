@@ -14,3 +14,5 @@ function rebuild (originalFn, validParams, validParamsLength) {
         }
     };
 }
+
+module.exports = curry;

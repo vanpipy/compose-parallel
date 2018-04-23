@@ -12,3 +12,5 @@ function map (fn, functor) {
 
     return _array;
 }
+
+module.exports = map;

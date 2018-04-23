@@ -18,3 +18,5 @@ function _compose (f, g) {
         return f(g(x));
     }
 }
+
+module.exports = compose;
