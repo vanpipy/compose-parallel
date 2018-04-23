@@ -18,7 +18,3 @@ function _compose (f, g) {
         return f(g(x));
     }
 }
-
-if (module && module.exports) {
-    module.exports = compose;
-}

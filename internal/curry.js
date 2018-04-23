@@ -14,7 +14,3 @@ function rebuild (originalFn, validParams, validParamsLength) {
         }
     };
 }
-
-if (module && module.exports) {
-    module.exports = curry;
-}

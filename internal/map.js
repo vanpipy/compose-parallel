@@ -12,7 +12,3 @@ function map (fn, functor) {
 
     return _array;
 }
-
-if (module && module.exports) {
-    module.exports = map;
-}
