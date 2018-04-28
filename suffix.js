@@ -2,6 +2,6 @@
     w._$ = {
         compose: compose,
         curry: curry,
-        map: map
+        map: curry(map)
     };
 })(window)
